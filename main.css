@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body
 {
     position: relative;
@@ -20,15 +22,15 @@ a:hover
 
 swiper-container
 {
-    width: 470px;
-    height: 600px;
+    max-width: 470px;
+    max-height: 600px;
 }
 
 swiper-slide img
 {
     display: block;
-    width: 470px;
-    height: 600px;
+    max-width: 470px;
+    max-height: 600px;
     object-fit: cover;
     transition: transform .2s;
 }
@@ -42,7 +44,7 @@ swiper-slide img:hover
 {
     border: 1px solid black;
     font-size: 12px;
-    width: 111px;
+    max-width: 111px;
     padding: 5px;
     margin-bottom: 30px;
 }
@@ -60,10 +62,7 @@ swiper-slide img:hover
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 10px 16px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -91,8 +90,8 @@ swiper-slide img:hover
 .swiper-slide img
 {
     display: block;
-    width: 100%;
-    height: 350px;
+    max-width: 100%;
+    max-height: 350px;
     object-fit: cover;
 }
 
@@ -144,7 +143,7 @@ swiper-slide img:hover
 {
     background-color: black;
     color: white;
-    padding: 10px 22px;
+    padding: 8px 18px;
     font-size: 16px;
     position: absolute;
     top: 80%;
@@ -162,9 +161,9 @@ swiper-slide img:hover
 
 #ringIntro
 {
-    padding: 10px 30px 50px 60px;
-    width: 530px;
-    height: 500px;
+    padding: 10px 20px 50px 60px;
+    max-width: 530px;
+    max-height: 500px;
     margin-left: 100px;
     font-weight: 400;
     font-size: 23px;
@@ -230,11 +229,11 @@ footer p
 #footerId
 {
     font-size: 10px;
+    text-align: center;
     color: white; 
     padding-top: 20px;
     margin-bottom: 0px; 
     white-space: nowrap;
-    text-align: center;
 }
 
 .followUsSection
@@ -295,21 +294,37 @@ footer p
 {
     swiper-container
     {
-        width: 300px;
-        height: 500px;
+        max-width: 300px;
+        max-height: 500px;
     }
 
     swiper-slide img
     {
-        width: 250px;
-        height: 500px;
+        max-width: 250px;
+        max-height: 500px;
     }
+
+    .productDesc h3
+    {
+        top: 10%;
+    }
+
+    .productDesc h4
+    {
+        top: 35%;
+    }
+
+    #infoSectionBtn
+    {
+        padding: 8px 8px;
+    }
+
     #ringIntro
     {
         margin-left: -40px;
         display: block;
-        width: 450px;
-        height: 500px;
+        max-width: 450px;
+        max-height: 500px;
     }
 
     #ringIntroImg
@@ -341,8 +356,8 @@ footer p
     {
         margin-left: -20px;
         display: block;
-        width: 450px;
-        height: 500px;
+        max-width: 450px;
+        max-height: 500px;
     }
 
     #ringIntroImg
@@ -363,6 +378,21 @@ footer p
        margin-top: -420px;
        margin-left: 430px;
     }
+
+    .productDesc h3
+    {
+        top: 30%;
+    }
+
+    .productDesc h4
+    {
+        top: 45%;
+    }
+
+    #infoSectionBtn
+    {
+        padding: 8px 18px;
+    }
 }
 
 @media only screen and (min-width:1000px) 
@@ -380,8 +410,8 @@ footer p
 {
     #ringIntro
     {
-       width: 530px;
-       height: 500px;
+       max-width: 530px;
+       max-height: 500px;
        margin-left: 100px;
     }
 
@@ -398,8 +428,8 @@ footer p
 {
     #ringIntro
     {
-       width: 530px;
-       height: 500px;
+       max-width: 530px;
+       max-height: 500px;
        margin-left: 100px;
     }
 
