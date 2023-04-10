@@ -6,6 +6,9 @@ body
     height: 100%;
     overflow-x: hidden;
     font-family: 'Crimson Text', serif;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: keep-all;
 }
 
 a
@@ -226,6 +229,11 @@ footer p
     font-family: 'Montserrat', sans-serif;
 }
 
+#footerBtn:hover
+{
+    box-shadow: 2px 2px 2px 0 goldenrod;
+}
+
 #footerId
 {
     font-size: 10px;
@@ -292,6 +300,18 @@ footer p
 
 @media screen and (max-width:600px) 
 {
+    #contactUsLink::after
+    {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #contactUsLink::before
+    {
+        content: "\a";
+        white-space: pre;
+    }
+
     swiper-container
     {
         max-width: 300px;
@@ -437,7 +457,7 @@ footer p
     {
        width: 400px;
        height: 500px;
-       margin-top: -460px;
+       margin-top: -400px;
        margin-left: 850px;
     }
 }
