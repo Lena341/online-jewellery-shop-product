@@ -1,0 +1,401 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Crimson Text", serif;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#myCarousel, #myCarousel img {
+  width: 450px;
+  height: 550px;
+  padding-bottom: 10px;
+}
+
+#myCarousel img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none !important;
+  color: black;
+}
+
+#smallDesc {
+  border: 1px solid black;
+  font-size: 12px;
+  max-width: 111px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+#infoSection {
+  padding: 10px 10px 20px 100px;
+  background-color: black;
+  color: white;
+  margin-top: 150px;
+}
+
+#infoSectionBtn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#infoSectionBtn:hover {
+  color: goldenrod;
+  border-color: goldenrod;
+}
+
+#infoSection h4, #infoSection h3 {
+  font-family: "Montserrat", sans-serif;
+  color: goldenrod;
+  font-size: 22px;
+}
+
+#sliderTitle {
+  padding-bottom: 70px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.swiper-slide:hover .overlay {
+  width: 100%;
+}
+
+.productDesc h3 {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.productDesc h4 {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.productDesc a {
+  background-color: black;
+  color: white;
+  padding: 8px 18px;
+  font-size: 16px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.productDesc a:hover {
+  color: goldenrod;
+}
+
+#ringIntro {
+  padding: 10px 20px 50px 60px;
+  max-width: 530px;
+  max-height: 500px;
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+#ringIntroImg {
+  width: 400px;
+  height: 500px;
+  margin-top: -460px;
+  margin-left: 850px;
+}
+
+footer {
+  padding: 70px 60px 0px 100px;
+  background-color: black;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+footer a {
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+#footerBtn {
+  border: 1px solid goldenrod;
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 43px;
+  padding-right: 43px;
+  border-radius: 1px;
+  margin-top: 50px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#footerBtn:hover {
+  -webkit-box-shadow: 2px 2px 2px 0 goldenrod;
+          box-shadow: 2px 2px 2px 0 goldenrod;
+}
+
+#footerId {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.followUsSection {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.followUsSection h3 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: rgb(167, 127, 28);
+}
+
+.followUsSection a {
+  font-size: 20px;
+  margin-right: 55px;
+}
+
+.followUsSection a:hover {
+  color: goldenrod;
+}
+
+#infoSection2 {
+  padding: 5px 140px 0px 130px;
+  margin-top: -10px;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#servicesDropdown {
+  color: white;
+}
+
+#arrowUp {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin-right: -80px;
+  color: white;
+}
+
+#arrowUp:hover {
+  color: goldenrod;
+}
+
+input {
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid goldenrod;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 600px) {
+  #contactUsLink::after {
+    content: "\a";
+    white-space: pre;
+  }
+  #contactUsLink::before {
+    content: "\a";
+    white-space: pre;
+  }
+  #myCarousel, #myCarousel img {
+    max-width: 360px;
+    max-height: 450px;
+    margin-left: -30px;
+  }
+  .carousel-control.right {
+    margin-right: 60px;
+  }
+  .productDesc h3 {
+    top: 10%;
+  }
+  .productDesc h4 {
+    top: 35%;
+  }
+  #infoSectionBtn {
+    padding: 8px 8px;
+  }
+  #ringIntro {
+    margin-left: -40px;
+    display: block;
+    max-width: 450px;
+    max-height: 500px;
+  }
+  #ringIntroImg {
+    width: 330px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: -10px;
+  }
+  #arrowUp {
+    position: relative;
+    top: -90px;
+    margin-right: -100px;
+  }
+  #footerBtn {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #ringIntro {
+    margin-left: -20px;
+    display: block;
+    max-width: 450px;
+    max-height: 500px;
+  }
+  #ringIntroImg {
+    width: 370px;
+    height: 470px;
+    margin-left: 70px;
+    margin-top: -10px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #ringIntroImg {
+    width: 330px;
+    height: 450px;
+    margin-top: -420px;
+    margin-left: 430px;
+  }
+  .productDesc h3 {
+    top: 30%;
+  }
+  .productDesc h4 {
+    top: 45%;
+  }
+  #infoSectionBtn {
+    padding: 8px 18px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #ringIntroImg {
+    width: 400px;
+    height: 490px;
+    margin-top: -430px;
+    margin-left: 520px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #ringIntro {
+    max-width: 530px;
+    max-height: 500px;
+    margin-left: 100px;
+  }
+  #ringIntroImg {
+    width: 400px;
+    height: 500px;
+    margin-top: -430px;
+    margin-left: 700px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #ringIntro {
+    max-width: 530px;
+    max-height: 500px;
+    margin-left: 100px;
+  }
+  #ringIntroImg {
+    width: 400px;
+    height: 500px;
+    margin-top: -400px;
+    margin-left: 850px;
+  }
+}
