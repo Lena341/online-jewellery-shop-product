@@ -51,23 +51,33 @@
     
     <div class="container-fluid" style="padding: 100px 20px 100px 90px;">
        <div class="row">
-          <div class="col-md-7">
-            <swiper-container class="newSwiper" navigation="true">
-               <swiper-slide>
-                  <img src="daniel-korpai-hbTKIbuMmBI-unsplash.jpg">
-               </swiper-slide>
-               <swiper-slide>
-                  <img src="daniel-korpai-6HkXWrSBl_8-unsplash.jpg">
-               </swiper-slide>
-            </swiper-container>
-          </div>
+        <div class="col-md-5">
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                 <img src="daniel-korpai-hbTKIbuMmBI-unsplash.jpg">
+              </div>
+              <div class="item">
+                 <img src="daniel-korpai-6HkXWrSBl_8-unsplash.jpg">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
+               <span class="sr-only">Previous</span>
+            </a> 
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right"></span>
+               <span class="sr-only">Next</span>
+            </a>
+         </div>
+        </div>
         <div class="col-md-5">
             <div id="smallDesc">LIMITED EDITION</div>
             <h1>AWESOME WATCH</h1>
             <h4>Stainless steel</h4>
             <h6>REF. NUMBER: 123456 - 7890</h6>
             <div style="margin-top: 100px;">
-               <h5><a href="#"><i class="bi bi-geo-alt"></i> STORE AVAILABILITY</a> &nbsp;&nbsp;&nbsp; 
+               <h5><a href="#"><i class="bi bi-geo-alt"></i> STORE AVAILABILITY</a> &nbsp;&nbsp;&nbsp;
                 <a href="#" id="contactUsLink"><i class="bi bi-envelope"></i> CONTACT US</a></h5>
             </div>
          </div>
@@ -117,12 +127,12 @@
        <div class="row" style="padding-top: 20px;">
           <div class="col-sm-7">
              <h4><i class="bi bi-calendar-check" style="color: goldenrod; font-size: 22px;"></i> BOOK AN APPOINTMENT</h4>
-             <p style="font-family: 'Crimson Text', serif; font-size: 18px;">Schedule an appointment for a personalized shopping experience! </p>
+             <p style="font-size: 18px;">Schedule an appointment for a personalized shopping experience! </p>
              <a id="infoSectionBtn" class="btn" type="button">LEARN MORE</a>
           </div>
           <div class="col-sm-5">
              <h4><i class="bi bi-people" style="color: goldenrod; font-size: 22px;"></i> MEET THE EXPERTS</h4>
-             <p style="font-family: 'Crimson Text', serif; font-size: 18px;">Talk to the our customer care service for your orders.</p>
+             <p style="font-size: 18px;">Talk to the our customer care service for your orders.</p>
              <a id="infoSectionBtn" class="btn" type="button">LEARN MORE</a>
           </div>
        </div>
@@ -220,7 +230,7 @@
              <h3>Newsletter</h3>
              <p>Subscribe to know about our latest products, catalogs, special events and store openings!</p><br>
              <form>
-               <input type="email" placeholder="Enter your email" id="email" name="email" style="color: white; background-color: transparent;border-bottom: 1px solid goldenrod; border-top: none;border-left: none;border-right: none;"><br>
+               <input type="email" placeholder="Enter your email" id="email" name="email"><br>
                <input type="submit" id="footerBtn" value="Subscribe">
              </form>
           </div>
@@ -237,7 +247,7 @@
          <a href="#"><i class="bi bi-linkedin"></i></a>
       </section>
    </footer>
-   <div id="infoSection">
+   <div id="infoSection2">
       <div class="row" style="padding: 20px;">
         <div class="col-sm-4">
            <div class="dropup">
@@ -280,20 +290,7 @@
      <p id="footerId">&copy;2022-2023 ELENI KARTSAKLI | ALL RIGHTS RESERVED</p>
       </div>
    </div>
-
-
-   
-   <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      });
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="app.js"></script>
 <noscript>Your browser doesn't support JavaScript!</noscript>
 </body>
