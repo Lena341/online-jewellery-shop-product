@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -23,13 +24,13 @@ a:hover {
   color: black;
 }
 
-#myCarousel, #myCarousel img {
+#my-carousel, #my-carousel img {
   width: 450px;
   height: 550px;
   padding-bottom: 10px;
 }
 
-#myCarousel img:hover {
+#my-carousel img:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
@@ -39,7 +40,7 @@ a:hover {
   color: black;
 }
 
-#smallDesc {
+#small-description {
   border: 1px solid black;
   font-size: 12px;
   max-width: 111px;
@@ -47,14 +48,14 @@ a:hover {
   margin-bottom: 30px;
 }
 
-#infoSection {
+#info-section {
   padding: 10px 10px 20px 100px;
   background-color: black;
   color: white;
   margin-top: 150px;
 }
 
-#infoSectionBtn {
+#info-section-btn {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -63,18 +64,18 @@ a:hover {
   margin-bottom: 20px;
 }
 
-#infoSectionBtn:hover {
+#info-section-btn:hover {
   color: goldenrod;
   border-color: goldenrod;
 }
 
-#infoSection h4, #infoSection h3 {
+#info-section h4, #info-section h3 {
   font-family: "Montserrat", sans-serif;
   color: goldenrod;
   font-size: 22px;
 }
 
-#sliderTitle {
+#slider-title {
   padding-bottom: 70px;
   text-decoration: underline;
   text-align: center;
@@ -117,7 +118,7 @@ a:hover {
   width: 100%;
 }
 
-.productDesc h3 {
+.product-description h3 {
   color: black;
   font-size: 16px;
   position: absolute;
@@ -129,7 +130,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.productDesc h4 {
+.product-description h4 {
   color: black;
   font-size: 16px;
   position: absolute;
@@ -141,7 +142,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.productDesc a {
+.product-description a {
   background-color: black;
   color: white;
   padding: 8px 18px;
@@ -155,11 +156,11 @@ a:hover {
   white-space: nowrap;
 }
 
-.productDesc a:hover {
+.product-Þsc a:hover {
   color: goldenrod;
 }
 
-#ringIntro {
+#ring-intro {
   padding: 10px 20px 50px 60px;
   max-width: 530px;
   max-height: 500px;
@@ -168,7 +169,7 @@ a:hover {
   font-size: 23px;
 }
 
-#ringIntroImg {
+#ring-intro-img {
   width: 400px;
   height: 500px;
   margin-top: -460px;
@@ -204,7 +205,7 @@ footer p {
   color: white;
 }
 
-#footerBtn {
+#footer-btn {
   border: 1px solid goldenrod;
   background-color: transparent;
   padding-top: 15px;
@@ -217,12 +218,12 @@ footer p {
   font-family: "Montserrat", sans-serif;
 }
 
-#footerBtn:hover {
+#footer-btn:hover {
   -webkit-box-shadow: 2px 2px 2px 0 goldenrod;
           box-shadow: 2px 2px 2px 0 goldenrod;
 }
 
-#footerId {
+#footer-id {
   font-size: 10px;
   text-align: center;
   color: white;
@@ -231,28 +232,28 @@ footer p {
   white-space: nowrap;
 }
 
-.followUsSection {
+.follow-us-section {
   padding-top: 120px;
   padding-bottom: 50px;
   text-align: center;
 }
 
-.followUsSection h3 {
+.follow-us-section h3 {
   padding-bottom: 20px;
   font-size: 20px;
   color: rgb(167, 127, 28);
 }
 
-.followUsSection a {
+.follow-us-section a {
   font-size: 20px;
   margin-right: 55px;
 }
 
-.followUsSection a:hover {
+.follow-us-section a:hover {
   color: goldenrod;
 }
 
-#infoSection2 {
+#footer-info-section {
   padding: 5px 140px 0px 130px;
   margin-top: -10px;
   background-color: rgb(24, 24, 24);
@@ -260,11 +261,11 @@ footer p {
   font-family: "Montserrat", sans-serif;
 }
 
-#servicesDropdown {
+#services-dropdown {
   color: white;
 }
 
-#arrowUp {
+#arrow-up {
   font-size: 30px;
   cursor: pointer;
   position: relative;
@@ -273,7 +274,7 @@ footer p {
   color: white;
 }
 
-#arrowUp:hover {
+#arrow-up:hover {
   color: goldenrod;
 }
 
@@ -287,15 +288,15 @@ input {
 }
 
 @media screen and (max-width: 600px) {
-  #contactUsLink::after {
+  #contact-us-link::after {
     content: "\a";
     white-space: pre;
   }
-  #contactUsLink::before {
+  #contact-us-link::before {
     content: "\a";
     white-space: pre;
   }
-  #myCarousel, #myCarousel img {
+  #my-carousel, #my-carousel img {
     max-width: 360px;
     max-height: 450px;
     margin-left: -30px;
@@ -303,45 +304,45 @@ input {
   .carousel-control.right {
     margin-right: 60px;
   }
-  .productDesc h3 {
+  .product-description h3 {
     top: 10%;
   }
-  .productDesc h4 {
+  .product-description h4 {
     top: 35%;
   }
-  #infoSectionBtn {
+  #info-section-btn {
     padding: 8px 8px;
   }
-  #ringIntro {
+  #ring-intro {
     margin-left: -40px;
     display: block;
     max-width: 450px;
     max-height: 500px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 330px;
     height: 450px;
     margin-left: 30px;
     margin-top: -10px;
   }
-  #arrowUp {
+  #arrow-up {
     position: relative;
     top: -90px;
     margin-right: -100px;
   }
-  #footerBtn {
+  #footer-btn {
     margin-bottom: 30px;
     margin-top: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #ringIntro {
+  #ring-intro {
     margin-left: -20px;
     display: block;
     max-width: 450px;
     max-height: 500px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 370px;
     height: 470px;
     margin-left: 70px;
@@ -349,24 +350,24 @@ input {
   }
 }
 @media only screen and (min-width: 800px) {
-  #ringIntroImg {
+  #ring-intro-img {
     width: 330px;
     height: 450px;
     margin-top: -420px;
     margin-left: 430px;
   }
-  .productDesc h3 {
+  .product-description h3 {
     top: 30%;
   }
-  .productDesc h4 {
+  .product-description h4 {
     top: 45%;
   }
-  #infoSectionBtn {
+  #info-section-btn {
     padding: 8px 18px;
   }
 }
 @media only screen and (min-width: 1000px) {
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 490px;
     margin-top: -430px;
@@ -374,12 +375,12 @@ input {
   }
 }
 @media only screen and (min-width: 1200px) {
-  #ringIntro {
+  #ring-intro {
     max-width: 530px;
     max-height: 500px;
     margin-left: 100px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 500px;
     margin-top: -430px;
@@ -387,12 +388,12 @@ input {
   }
 }
 @media only screen and (min-width: 1300px) {
-  #ringIntro {
+  #ring-intro {
     max-width: 530px;
     max-height: 500px;
     margin-left: 100px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 500px;
     margin-top: -400px;
